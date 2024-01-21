@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "workspaces": [
+    "./wasd-common",
+    "./nodecg-tiltify",
+    "./nodecg-dono-control",
+    "./nodecg-ticker-control",
+    "./nodecg-obs-control",
+    "./nodecg-people-control",
+    "./nodecg-xr18-control",
+    "./wasd"
+  ],
+  "scripts": {
+    "start": "cd .. && node -r source-map-support/register index.js",
+    "clean-install": "rimraf node_modules && "
+  },
+  "devDependencies": {
+    "wsrun": "^5.0.5"
+  }
+}
